@@ -8,13 +8,13 @@ class Home extends BaseController
     {
         return view('boasvindas');
     }
-    public function fun1(): string
+    public function catalogo(): string
     {
-        return view('tela1');
+        return view('catalogo');
     }
-    public function fun2(): string
+    public function carrinho(): string
     {
-        return view('tela2');
+        return view('carrinho');
     }
     
 }
